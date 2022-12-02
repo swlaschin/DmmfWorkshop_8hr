@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{51420EB4-382A-4423-B4A5-A5D5D4CD6993}"
+	ProjectSection(SolutionItems) = preProject
+		src\00-HelloWorld.fsx = src\00-HelloWorld.fsx
+		src\fsharp-basic-syntax.fsx = src\fsharp-basic-syntax.fsx
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6CA588A7-53D2-4F96-A1F7-E38CC670D186} = {9582708C-B3BA-4DC8-B8F3-52BEC334A8FF}
+		{9FC8ABDE-71EC-4A1A-9495-975AB382DBE4} = {9582708C-B3BA-4DC8-B8F3-52BEC334A8FF}
+		{C4C4A747-2B87-44D4-94DC-A9A7D246B767} = {9582708C-B3BA-4DC8-B8F3-52BEC334A8FF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {432E6E9B-7C5A-4FC4-9F97-55543C31EA05}
+	EndGlobalSection
+EndGlobal
