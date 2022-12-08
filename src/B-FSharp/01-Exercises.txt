@@ -1,0 +1,20 @@
+﻿// =================================
+// Exercise 1: Hello world
+// =================================
+
+
+Read through and understand the examples
+* 01a-HelloWorld.fsx
+* 01b-HelloWorld.fsx
+* 01c-HelloWorld.fsx
+
+Do:
+* 01d-Exercise-HelloWorld.fsx
+
+-------------------------
+
+Need help with F# syntax?
+* Look at "/src/B-FSharp/Basic syntax you need to know.fsx"
+
+Having trouble with F# intellisense?
+* See the "Troubleshooting" section in "/src/00-HelloWorld.fsx"

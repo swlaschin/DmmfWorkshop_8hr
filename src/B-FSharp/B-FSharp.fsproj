@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <!--
+    Warning FS0025: Incomplete pattern matches on this expression.
+    -->
+    <WarningsAsErrors>FS0025</WarningsAsErrors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Basic syntax you need to know.fsx" />
+    <Content Include="01-Exercises.txt" />
+    <None Include="01a-HelloWorld.fsx" />
+    <None Include="01b-HelloWorld2.fsx" />
+    <None Include="01c-HelloWorld3.fsx" />
+    <None Include="01d-Exercise-HelloWorld.fsx" />
+    <None Include="01e-Exercise-HelloWorld%28answer%29.fsx" />
+    <Content Include="02-Exercises.txt" />
+    <None Include="02a-TypeInference.fsx" />
+    <None Include="02b-Exercise-TypeSignatures.fsx" />
+    <None Include="02c-Exercise-TypeSignatures(answer).fsx" />
+    <Content Include="03-Exercises.txt" />
+    <None Include="03a-Piping.fsx" />
+    <None Include="03b-Exercise-ThinkOfANumber.fsx" />
+    <None Include="03c-Exercise-ThinkOfANumber(answer).fsx" />
+    <Content Include="04-Exercises.txt" />
+    <None Include="04a-HOWTO-WorkWithTypes.fsx" />
+    <None Include="99-FP-FrequentQuestions.fsx" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <PackageReference Update="FSharp.Core" Version="4.5.2" />
+  </ItemGroup>
+
+</Project>

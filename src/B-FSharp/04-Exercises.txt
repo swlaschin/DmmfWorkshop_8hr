@@ -1,0 +1,7 @@
+﻿// =================================
+// Exercise 4: Getting comfortable with F# types
+// =================================
+
+Work through the code in
+* 04a-HOWTO-WorkWithTypes.fsx
+

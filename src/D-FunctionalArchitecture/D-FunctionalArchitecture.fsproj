@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="01-Exercises.txt" />
+    <None Include="01a-Validation.fsx" />
+    <None Include="PersonDomain.fsx" />
+    <None Include="01b-Exercise-DtoValidation.fsx" />
+    <None Include="01c-Exercise-DtoValidation%28answers%29.fsx" />
+    <Content Include="02-Exercises.txt" />
+    <None Include="02a-CompareStrings.fsx" />
+    <None Include="IoExample.fsx" />
+    <None Include="02b-UpdateCustomer-Impure.fsx" />
+    <None Include="02c-Exercise-UpdateCustomer-Pure.fsx" />
+    <None Include="02d-Exercise-UpdateCustomer-Pure%28answers%29.fsx" />
+    <None Include="Expecto.fsx" />
+    <None Include="Result.fsx" />
+    <None Include="Validation.fsx" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <PackageReference Update="FSharp.Core" Version="4.5.2" />
+  </ItemGroup>
+
+</Project>

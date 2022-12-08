@@ -1,0 +1,52 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="02-Exercises.txt" />
+    <None Include="02a-ExamplesFromSlides.fsx" />
+    <None Include="02b-ConstrainedTypes-EmailAddress.fsx" />
+    <None Include="02b-ConstrainedTypes-String10.fsx" />
+    <None Include="02c-Exercise-OrderLineQty.fsx" />
+    <None Include="02d-Exercise-OrderLineQty%28answer%29.fsx" />
+    <None Include="02e-Exercise-ConstrainedTypes-ZipCode.fsx" />
+    <None Include="02f-Exercise-ConstrainedTypes-ZipCode%28answers%29.fsx" />
+    <None Include="02h-Exercise-ConstrainedTypes-NonZeroInteger.fsx" />
+    <None Include="02i-Exercise-ConstrainedTypes-NonZeroInteger%28answers%29.fsx" />
+    <None Include="02z-ConstrainedTypes_FrequentQuestions.fsx" />
+    <Content Include="03-Exercises.txt" />
+    <None Include="03a-ExamplesFromSlides.fsx" />
+    <None Include="03b-Exercise-Refactoring flags.fsx" />
+    <None Include="03c-Exercise-Refactoring flags %28answers%29.fsx" />
+    <Content Include="04-Exercises.txt" />
+    <None Include="04a-ExamplesFromSlides.fsx" />
+    <None Include="04d-Exercise-CardGame.fsx" />
+    <None Include="04e-Exercise-CardGame %28answers%29.fsx" />
+    <None Include="04f-Exercise-Contact.fsx" />
+    <None Include="04g-Exercise-Contact %28answers%29.fsx" />
+    <None Include="04h-Exercise-Payments.fsx" />
+    <None Include="04i-Exercise-Payments %28answers%29.fsx" />
+    <None Include="04j-Exercise-YourOwnDomain1.fsx" />
+    <Content Include="05-Exercises.txt" />
+    <Content Include="05c0-Exercise-ShoppingCart%28diagram%29.png" />
+    <Compile Include="05c1-Exercise-ShoppingCartApi.fsx" />
+    <None Include="05c2-Exercise-ShoppingCartApi %28answers%29.fsx" />
+    <Content Include="05e0-Exercise-Delivery%28diagram%29.png" />
+    <None Include="05e1-Exercise-DeliveryApi.fsx" />
+    <None Include="05e2-Exercise-DeliveryApi %28answers%29.fsx" />
+    <Content Include="06-Exercises.txt" />
+    <None Include="06a-TotalFunctions.fsx" />
+    <None Include="06b-Exercise-TotalFunctions.fsx" />
+    <None Include="06c-Exercise-TotalFunctions%28answers%29.fsx" />
+    <None Include="06d-Exercise-NonEmptyList.fsx" />
+    <None Include="06e-Exercise-NonEmptyList%28answers%29.fsx" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <PackageReference Update="FSharp.Core" Version="4.5.2" />
+  </ItemGroup>
+
+</Project>

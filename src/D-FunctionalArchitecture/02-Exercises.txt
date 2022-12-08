@@ -1,0 +1,13 @@
+﻿// =================================
+// Exercise 2:
+// =================================
+
+Read through
+* 02a-CompareStrings.fsx
+
+Exercise
+* Look at an impure implementation
+  02b-UpdateCustomer-Impure.fsx
+
+* Rewrite to separate decisions from I/O
+  02c-Exercise-UpdateCustomer-Pure.fsx

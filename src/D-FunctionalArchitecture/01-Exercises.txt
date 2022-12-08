@@ -1,0 +1,12 @@
+﻿// =================================
+// Exercise 1:
+// =================================
+
+Understand the example
+* 01a-Validation.fsx
+
+Do the exercise:
+* 01b-Exercise-DtoValidation.fsx
+
+
+

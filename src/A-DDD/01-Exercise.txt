@@ -1,0 +1,13 @@
+// =================================
+// Exercise 1: Create a domain model
+// =================================
+
+Read through and understand the guidelines
+* 01z-GuidelinesForDomainModelingExercise.txt
+
+Read through and understand the TicTacToe example:
+* 01a-DomainModel-TicTacToe.txt
+
+Document your domain:
+* Use this file: 01b-DomainModel-YourOwnDomain.txt
+

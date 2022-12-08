@@ -1,0 +1,11 @@
+﻿// =================================
+// Exercise 4: Domain Modeling with types
+// =================================
+
+Now practice putting it all together!
+
+Do one or more of following exercises:
+* 04d-Exercise-CardGame.fsx
+* 04f-Exercise-Contact.fsx
+* 04h-Exercise-Payments.fsx
+* 04j-Exercise-YourOwnDomain1.fsx  // e.g. convert a domain model from the first session to code.

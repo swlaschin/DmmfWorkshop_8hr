@@ -1,0 +1,9 @@
+﻿// =================================
+// Exercise 3: Domain Modeling with types
+// =================================
+
+Do:
+* 03b-Exercise-Refactoring flags
+
+Read the questions and answers at the bottom of the answer file:
+* 03c-Exercise-Refactoring flags (answers).fsx

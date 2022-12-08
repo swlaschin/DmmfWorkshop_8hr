@@ -1,0 +1,97 @@
+﻿## Guidelines for Domain Modeling Exercise
+
+The goal is to:
+* Document the domain using AND and OR, etc
+* Develop a shared mental model and shared language
+
+Possible domains to use:
+* ATM/Cash Machine
+* Microwave oven
+* Self-service espresso/cappuccino machine
+* Delivery tracking service (e.g Fedex/DHL)
+* Your own domain that you are an expert in
+
+
+
+===================
+How to model a domain
+===================
+
+* Pick one workflow to focus on.
+  When that is done, do another one
+
+===================
+How to model a workflow
+===================
+
+* What is needed for the workflow input?
+  * What data is from the triggering event itself
+  * What data is from the current state of the system? E.g. loaded from storage?
+  * What other data is needed?
+* What is the output of the workflow?
+  * What events are needed for broadcast to downstream systems?
+  * What data should be saved to storage?
+* How does the state of the system change?
+  * Does data need to be loaded, changed, and resaved?
+* What are the side effects? (Things that must be done but are internal to the domain)
+
+====================
+"Place order" Example
+====================
+
+Workflow: "Place order"
+input:
+  Order (from the triggering event)
+  ProductCatalog  (to lookup prices)
+output:
+  OrderPlaced event (to be sent to downstream systems)
+  The final PlacedOrder (to store in the database)
+  An OrderAcknowledgment (to be sent to the customer)
+
+---------------------------
+Document the data with "AND"
+---------------------------
+
+data Order =
+  CustomerInfo
+  AND ShippingAddress
+  AND BillingAddress
+  AND list of OrderLines
+  AND AmountToBill
+
+data OrderLine =
+  Product
+  AND OrderQuantity
+  AND Price
+
+data CustomerInfo = CustomerName AND ContactInfo
+data CustomerName = FirstName AND LastName
+
+data BillingAddress = ??? // don't know yet
+
+
+
+---------------------------
+Document choices with OR
+---------------------------
+
+data OrderQuantity =
+  UnitQuantity
+  OR KilogramQuantity
+
+data ContactInfo =
+  EmailAddress
+  OR PhoneNumber
+
+---------------------------
+Document simple/constrained types
+---------------------------
+
+data UnitQuantity = integer between 1 and ?
+data KilogramQuantity = decimal between ? and ?
+
+data EmailAddress = non empty string containing an @ symbol
+data PhoneNumber = non empty string containing only digits, hyphens, and spaces
+
+
+

@@ -1,0 +1,18 @@
+﻿// =================================
+// Exercise 5: State machines
+// =================================
+
+
+Now practice putting it all together!
+
+Do one or more of the following exercises:
+
+Shopping cart API
+* 05c1-Exercise-ShoppingCartApi.fsx
+  related diagram is: 05c0-Exercise-ShoppingCart(diagram).png
+
+Delivery API
+* 05e1-Exercise-DeliveryApi.fsx
+  related diagram is: 05e0-Exercise-Delivery(diagram).png
+
+

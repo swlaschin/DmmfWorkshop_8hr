@@ -1,0 +1,17 @@
+﻿// =================================
+// Exercise 2: Constrained types
+// =================================
+
+Look through these files
+* 02b-ConstrainedTypes-EmailAddress.fsx
+* 02b-ConstrainedTypes-String10.fsx
+
+Do the following exercise:
+* 02c-Exercise-OrderLineQty.fsx
+
+If you have extra time, do the following exercise:
+* 02e-Exercise-ConstrainedTypes-ZipCode.fsx
+* 02h-Exercise-ConstrainedTypes-NonZeroInteger.fsx
+
+Questions?
+* 02z-ConstrainedTypes_FrequentQuestions.fsx

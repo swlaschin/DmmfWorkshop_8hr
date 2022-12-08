@@ -1,0 +1,9 @@
+﻿// =================================
+// Exercise 3: Getting comfortable with F# types
+// =================================
+
+Do the following exercise:
+* 03a-Exercise-TextToTypes.fsx
+
+If you need help, look at the answers in
+* 03b-Exercise-TextToTypes(answer).fsx

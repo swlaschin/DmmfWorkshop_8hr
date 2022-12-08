@@ -1,0 +1,13 @@
+﻿// =================================
+// Exercise 3: piping
+// =================================
+
+
+Read through and understand the example
+* 03a-Piping.fsx
+
+Do:
+* 03b-Exercise-ThinkOfANumber.fsx
+
+
+
